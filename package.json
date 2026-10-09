@@ -1,0 +1,9 @@
+{
+  "name": "microfix-homepage-redesign",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 5173",
+    "build": "node --check scripts/check-inline.mjs && node scripts/check-inline.mjs"
+  }
+}
